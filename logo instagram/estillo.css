@@ -1,0 +1,43 @@
+.fondo{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    width: 50vh;
+    height: 50vh;
+    border-radius: 12vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.marco{
+    position: absolute;
+    top: 7vh;
+    left: 7vh;
+    border: 2.7vh solid white;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 20%;
+}
+.bola{
+    position: absolute;
+    top: 2vh;
+    left: 25vh;
+    border: 2.3vh solid white;
+    border-radius: 100%;
+}
+.circulo{
+    position: absolute;
+    top: 5.6vh;
+    left: 5.6vh;
+    width: 14vh;
+    height: 14vh;
+    border: 3.5vh solid white;
+    border-radius: 100%;
+    
+}
